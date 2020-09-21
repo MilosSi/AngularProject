@@ -1,0 +1,99 @@
+<!--/PROIZVOD-->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xl-6 col-xs-12" id="uniqProd" *ngFor="let watchOne of watch">
+      <h2>{{watchOne.imeProizvoda}}</h2>
+      <img src="{{watchOne.slika.putanjaSlike}}" alt="{{watchOne.slika.opisSlike}}" title="{{watchOne.slika.opisSlike}}"/>
+      <span id="cenaLogo">
+                  <span id="sNcena">
+                        <p id="staraCena" *ngIf="watchOne.cene.popust == 1">{{watchOne.cene.staraCena}} $</p>
+                        <p>{{watchOne.cene.Cena}} $</p>
+                  </span>
+                    <img src="{{watchOne.brand.brandPic}}" alt="{{watchOne.brand.opisBrenda}}" title="{{watchOne.brand.opisBrenda}}" id="logoProd">
+                </span>
+      <p id="desc">
+        {{watchOne.opis}}
+      </p>
+
+    </div>
+    <div class="col-xl-6 col-xs-12 userInfo">
+      <form method="get" action="#" (ngSubmit)="onSubmit()" #f="ngForm">
+        <div class="form-group">
+          <label for="txtUser" id="txtUserLabel">Name</label>
+          <input class="form-control" type="text" placeholder="Your Name" value="" ngModel name="txtName" id="txtName" #txtName="ngModel" pattern="^[ČĆŠĐŽA-zčćšđž0-9\s]{3,20}$" required >
+          <div *ngIf="txtName.touched">
+            <span class="required" *ngIf="txtName.errors?.required">Name is required</span>
+            <span class="required" *ngIf="txtName.errors?.pattern">Name is not valid</span>
+          </div>
+
+        </div>
+        <div class="form-group">
+          <label for="txtUser" id="txtUserLabel">Surname</label>
+          <input class="form-control" type="text" placeholder="Your Surname" value="" ngModel name="txtSurname" id="txtSurname" #txtSurname="ngModel" pattern="^[ČĆŠĐŽA-zčćšđž0-9\s]{2,20}$" required>
+          <div *ngIf="txtSurname.touched">
+            <span class="required" *ngIf="txtSurname.errors?.required">Surnname is required</span>
+            <span class="required" *ngIf="txtSurname.errors?.pattern">Surnname is not valid</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="emlUser" id="emlUserLabel">Email address</label>
+          <input class="form-control" type="email" placeholder="name@example.com" value="" ngModel name="emlUser" id="emlUser" #emlUser="ngModel" required email >
+          <div *ngIf="emlUser.touched">
+            <span class="required" *ngIf="emlUser.errors?.required">Email is required</span>
+            <span class="required" *ngIf="emlUser.errors?.email">Email is not valid</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="addUser" id="addUserLabel">Address</label>
+          <input type="text" class="form-control" placeholder="1234 Main St" ngModel #addUser="ngModel" name="addUser" id="addUser" required pattern="^[A-z]+(\s\w+)*$">
+
+          <div *ngIf="addUser.touched">
+            <span class="required" *ngIf="addUser.errors?.required">Address is required</span>
+            <span class="required" *ngIf="addUser.errors?.pattern">Address is not valid</span>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="userCity" id="userCityLabel">City</label>
+            <input type="text" class="form-control" ngModel #userCity="ngModel" name="userCity" id="userCity" required pattern="^[a-zA-Z]+([\s-]?[a-zA-Z]+)*$">
+
+            <div *ngIf="userCity.touched">
+              <span class="required" *ngIf="userCity.errors?.required">City is required</span>
+              <span class="required" *ngIf="userCity.errors?.pattern">City is not valid</span>
+            </div>
+          </div>
+          <div class="form-group col-md-4">
+            <label for="userState" id="userStateLabel">State</label>
+            <input type="text" class="form-control" ngModel #userState="ngModel" name="userState" id="userState" required pattern="^[a-zA-Z]+([\s-]?[a-zA-Z]+)*$">
+
+            <div *ngIf="userState.touched">
+              <span class="required" *ngIf="userState.errors?.required">State is required</span>
+              <span class="required" *ngIf="userState.errors?.pattern">State is not valid</span>
+            </div>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="userZip" id="userZipLabel">Zip</label>
+            <input type="text" class="form-control" ngModel #userZip="ngModel" name="userZip" id="userZip" required pattern="^\d{5}(?:[-\s]\d{4})?$">
+            <div *ngIf="userZip.touched">
+              <span class="required" *ngIf="userZip.errors?.required">Zip is required</span>
+              <span class="required" *ngIf="userZip.errors?.pattern">Zip is not valid</span>
+            </div>
+          </div>
+        </div>
+        <button type="submit" name="subReg" id="subReg" value="Order" [disabled]="!f.valid">Order</button>
+      </form>
+      <div class="customValidation">
+        <p> You must fill all inputs </p>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <h2 id="fH2">&middot;RELATED PRODUCTS&middot;</h2>
+      <div class="row">
+        <app-showwatches @slideFromAbove *ngFor="let watch of watchesBrand" [watchesAlias]="watch" class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 fArticles"></app-showwatches>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!--/PROIZVOD-->

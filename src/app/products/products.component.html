@@ -1,0 +1,57 @@
+<!--FILTER PROIZVOD-->
+<div class="container-fluid">
+
+
+        <div class="row filteri">
+          <div class="col-md-3">
+            <p>SEARCH</p>
+            <div class="form-group" id="pretraga">
+              <input type="search" class="form-control" id="serchProd" [(ngModel)]="searchName">
+            </div>
+          </div>
+          <div class="col-md-9">
+            <form (ngSubmit)="SubmitFilters()" #f="ngForm">
+              <div class="row">
+                <div class="col-md-4">
+                  <p>GENDER</p>
+                  <div class="form-check">
+                    <select id="genders" class="form-control selectBg" ngModel name="genders">
+
+                      <option class="" *ngFor="let gender of genders" value="{{gender.polId}}" [selected]="genderId == gender.polId">{{gender.pol}}</option>
+                    </select>
+
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <p>BRAND</p>
+                  <div class="form-check">
+                    <select id="brands" class="form-control selectBg" ngModel name="brands">
+                      <option class="" *ngFor="let brand of brands" value="{{brand.brandId}}" [selected]="brandId == brand.brandId">{{brand.imeBrenda}}</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <p>SPECIAL OFFER</p>
+                  <select id="offers" class="form-control selectBg" ngModel name="offers">
+                    <option class="" value="1" >New</option>
+                    <option class="" value="2" >Action</option>
+                  </select>
+
+                  <input type="submit" class="btn btn-primary mt-2" value="Filter">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+
+
+   <div class="row">
+    <div class="col-md-12" id="products">
+      <div class="row fDrzac">
+        <app-showwatches @fade *ngFor="let watch of searchWatches" [watchesAlias]="watch" class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 fArticles"></app-showwatches>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/FILTER PROIZVOD-->

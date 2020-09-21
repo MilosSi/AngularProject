@@ -1,0 +1,25 @@
+
+  <p id="akc" *ngIf="watch.cene.popust == 1">SALE</p>
+  <p id="nvn" *ngIf="watch.novProizvod == 1">NEW</p>
+  <span id="slikaProd">
+          <img src="{{watch.slika.putanjaSlike}}" alt="{{watch.slika.opisSlike}}" title="{{watch.slika.opisSlike}}"/>
+      </span>
+  <span id="stars">
+       <i class="fas fa-star" *ngFor="let item of createRange(watch.ocena)"></i>
+       <i class="far fa-star" *ngFor="let item of createRange(5- watch.ocena)"></i>
+     </span>
+  <p id="prodName">{{watch.imeProizvoda}}</p>
+  <span id="sNCenaBrand">
+        <span id="sNcena">
+          <p id="staraCena" *ngIf="watch.cene.popust == 1">{{watch.cene.staraCena}} $</p>
+          <p>{{watch.cene.Cena}} $</p>
+        </span>
+        <span id="brand">
+            <a [routerLink]="['/products']" [queryParams]="{brandId: watch.brand.brandId}"><img src="{{watch.brand.brandPic}}" alt="{{watch.brand.opisBrenda}}" title="{{watch.brand.opisBrenda}}"/></a>
+        </span>
+      </span>
+  <p class="text-secondary">{{watch.opis | shorten: 60}}</p>
+  <span id="order">
+          <a [routerLink]="['/product',watch.id]"><button><i class="fas fa-cart-plus"></i> ORDER NOW</button></a>
+      </span>
+

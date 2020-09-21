@@ -1,0 +1,496 @@
+[
+    {
+        "id":1,
+        "isF":1,
+        "novProizvod":1,
+        "polKat":
+        {
+            "polId":3,
+            "pol":"u"
+        },
+        "slika":
+        {
+            "putanjaSlike":"assets/Images/RolexCollection/rlx1.png",
+            "opisSlike":"Rolex watch Datejust41"
+        },
+        "ocena":4,
+        "imeProizvoda":"Rolex Datejust 41 Blue 18k White Gold/Steel",
+        "cene":
+        {
+            "popust":1,
+            "staraCena":12999,
+            "Cena":10009
+        },
+        "brand":{
+            "brandId":1,
+            "brandPic":"assets/Images/Logos/rlxLogo.png",
+            "opisBrenda":"RolexLogo"
+        },
+        "opis":"The instantaneous date - Blue Dial The dial is the distinctive face of a Rolex watch, the feature most responsible for its identity and readability. Characterised by hour markers fashioned from 18 ct gold to prevent tarnishing, every Rolex dial is designed and manufactured in-house, largely by hand to ensure perfection."
+    },
+    {
+        "id":2,
+        "isF":0,
+        "novProizvod":1,
+        "polKat":
+        {
+            "polId":3,
+            "pol":"u"
+        },
+        "slika":
+        {
+            "putanjaSlike":"assets/Images/RolexCollection/rlx2.png",
+            "opisSlike":"Rolex Cellini Dual Time"
+        },
+        "ocena":5,
+        "imeProizvoda":"Rolex Cellini Dual Time Black/Leather 50115",
+        "cene":
+        {
+            "popust":0,
+            "staraCena":0,
+            "Cena":16149
+        },
+        "brand":{
+            "brandId":1,
+            "brandPic":"assets/Images/Logos/rlxLogo.png",
+            "opisBrenda":"RolexLogo"
+        },
+        "opis":"The watchmaking heritage - A Leather Strap In the purest traditional style, the Cellini Dual Time is fitted on a remborded and stitched alligator leather strap with large scales. The 18 ct gold buckle matches the gold of the watch case."
+    },
+    {
+        "id":3,
+        "isF":0,
+        "novProizvod":1,
+        "polKat":
+        {
+            "polId":2,
+            "pol":"f"
+        },
+        "slika":
+        {
+            "putanjaSlike":"assets/Images/RolexCollection/rlx3.png",
+            "opisSlike":"Rolex Lady-Datejust 26mm"
+        },
+        "ocena":5,
+        "imeProizvoda":"Rolex Lady-Datejust 26mm Factory Vignette",
+        "cene":
+        {
+            "popust":0,
+            "staraCena":0,
+            "Cena":4179
+        },
+        "brand":{
+            "brandId":1,
+            "brandPic":"assets/Images/Logos/rlxLogo.png",
+            "opisBrenda":"RolexLogo"
+        },
+        "opis":"Lady-Datejust - The Oyster Perpetual Lady-Datejust concentrates all the attributes of the iconic Rolex Datejust in its smaller 26 mm case. The timeless elegance of this gem for daily wear is enhanced by dials of subtle and shimmering colour, by noble materials and sparkling diamonds. "
+    },
+    {
+        "id":4,
+        "isF":1,
+        "novProizvod":0,
+        "polKat":
+        {
+            "polId":1,
+            "pol":"m"
+        },
+        "slika":
+        {
+            "putanjaSlike":"assets/Images/RolexCollection/rlx4.png",
+            "opisSlike":"Rolex Sea-Dweller Deepsea"
+        },
+        "ocena":5,
+        "imeProizvoda":"Rolex Sea-Dweller Deepsea Pro Hunter ",
+        "cene":
+        {
+            "popust":1,
+            "staraCena":33500,
+            "Cena":29499
+        },
+        "brand":{
+            "brandId":1,
+            "brandPic":"assets/Images/Logos/rlxLogo.png",
+            "opisBrenda":"RolexLogo"
+        },
+        "opis":" The Sea-Dweller - Waterproof to a depth of 4,000 feet (1,220 metres) for the Rolex Sea-Dweller, launched in 1967, and 12,800 feet (3,900 metres) for the Rolex Deepsea unveiled in 2008, they are the ultimate manifestation of Rolex’s leadership in divers’ watches and the result of decades of collaboration with diving professionals."
+    },
+    {
+        "id":5,
+        "isF":0,
+        "novProizvod":1,
+        "polKat":
+        {
+            "polId":3,
+            "pol":"u"
+        },
+        "slika":
+        {
+            "putanjaSlike":"assets/Images/RolexCollection/rlx5.png",
+            "opisSlike":"Rolex Cosmograph Daytona"
+        },
+        "ocena":5,
+        "imeProizvoda":"Rolex Cosmograph Daytona Rainbow ",
+        "cene":
+        {
+            "popust":0,
+            "staraCena":0,
+            "Cena":494999
+        },
+        "brand":{
+            "brandId":1,
+            "brandPic":"assets/Images/Logos/rlxLogo.png",
+            "opisBrenda":"RolexLogo"
+        },
+        "opis":"Daytona Rainbow - To adorn its timepieces with the most striking gemstones, the brand has its own in-house gemmologists and gem-setters. Gemmologists are responsible for examining and selecting the gemstones received, retaining only those that meet Rolex’s extremely stringent quality criteria. The stones then pass into the hands of the gem-setters, who are tasked with placing and fixing each stone to best reveal its beauty, colour and sparkle."
+    },
+    {
+        "id":6,
+        "isF":1,
+        "novProizvod":1,
+        "polKat":
+        {
+            "polId":2,
+            "pol":"f"
+        },
+        "slika":
+        {
+            "putanjaSlike":"assets/Images/CartierCollection/crt1.jpg",
+            "opisSlike":"Cartier Ballon Bleu"
+        },
+        "ocena":4,
+        "imeProizvoda":"Cartier Ballon Bleu 36mm 18K Gold Diamond",
+        "cene":
+        {
+            "popust":1,
+            "staraCena":21999,
+            "Cena":19999
+        },
+        "brand":{
+            "brandId":2,
+            "brandPic":"assets/Images/Logos/crtLogo.png",
+            "opisBrenda":"CartierLogo"
+        },
+        "opis":"Cartier Ballon Bleu - Medium size (36.6mm) 18K gold case, fluted crown with a blue sapphire cabochon, silvered and lacquered sunray flinqué dial with 11 round diamond hour markers and 1 black Roman numeral, automatic winding Cartier caliber 076 movement, 18K pink gold bracelet. Water resistant to 30 meters. "
+    },
+    {
+        "id":7,
+        "isF":1,
+        "novProizvod":1,
+        "polKat":
+        {
+            "polId":1,
+            "pol":"m"
+        },
+        "slika":
+        {
+            "putanjaSlike":"assets/Images/CartierCollection/crt2.jpg",
+            "opisSlike":"Cartier WSCA0006 New Calibre"
+        },
+        "ocena":5,
+        "imeProizvoda":"Cartier WSCA0006 New Calibre Black Rubber ",
+        "cene":
+        {
+            "popust":1,
+            "staraCena":10009,
+            "Cena":7699
+        },
+        "brand":{
+            "brandId":2,
+            "brandPic":"assets/Images/Logos/crtLogo.png",
+            "opisBrenda":"CartierLogo"
+        },
+        "opis":"Cartier WSCA0006 - Cartier Calibre de Cartier Diver Automatic Black Dial Black Rubber Divers Mens Watch WSCA0006. Black ADLC stainless steel case with a black rubber strap. Uni-directional rotating stainless steel bezel with a black ADLC top ring. Black dial with luminous black hands and Roman numeral hour markers. Minute markers around the outer rim. Automatic movement with a 48-hour power reserve."
+    },
+    {
+        "id":8,
+        "isF":0,
+        "novProizvod":1,
+        "polKat":
+        {
+            "polId":3,
+            "pol":"u"
+        },
+        "slika":
+        {
+            "putanjaSlike":"assets/Images/CartierCollection/crt3.jpg",
+            "opisSlike":"Cartier W5330004 Tank"
+        },
+        "ocena":5,
+        "imeProizvoda":"Cartier W5330004 Tank MC Auto Black Dial Steel  ",
+        "cene":
+        {
+            "popust":0,
+            "staraCena":0,
+            "Cena":5809
+        },
+        "brand":{
+            "brandId":2,
+            "brandPic":"assets/Images/Logos/crtLogo.png",
+            "opisBrenda":"CartierLogo"
+        },
+        "opis":"Silver-tone stainless steel case with a black alligator leather strap. Fixed silver-tone stainless steel bezel. Black opaline dial with silver-tone hands and Roman numeral hour markers. Minute markers around an inner ring. Dial Type: Analog. Date display at the 3 o'clock position. Seconds sub-dial at the 6 o'clock position subdials. Cartier Calibre 1904-PS MC automatic movement with a 48-hour power reserve."
+    },
+    {
+        "id":9,
+        "isF":0,
+        "novProizvod":1,
+        "polKat":
+        {
+            "polId":1,
+            "pol":"m"
+        },
+        "slika":
+        {
+            "putanjaSlike":"assets/Images/CartierCollection/crt4.jpg",
+            "opisSlike":"Cartier Seatimer W31077U2"
+        },
+        "ocena":5,
+        "imeProizvoda":"Cartier Seatimer W31077U2",
+        "cene":
+        {
+            "popust":0,
+            "staraCena":0,
+            "Cena":3999
+        },
+        "brand":{
+            "brandId":2,
+            "brandPic":"assets/Images/Logos/crtLogo.png",
+            "opisBrenda":"CartierLogo"
+        },
+        "opis":"Cartier watches tend to have art deco features that lend them a decidedly sophisticated business-casual or dress-watch air. It is quite a departure from the norm, which is not a bad thing. In fact it is rather fascinating. This watch delivers a more sporty, rugged look given its black, rubberized, steel bracelet and crown guard attached to the case via steel-chain links."
+    },
+    {
+        "id":10,
+        "isF":1,
+        "novProizvod":0,
+        "polKat":
+        {
+            "polId":1,
+            "pol":"m"
+        },
+        "slika":
+        {
+            "putanjaSlike":"assets/Images/ZenithCollection/zen1.jpg",
+            "opisSlike":"Zenith Pilot Cronometro "
+        },
+        "ocena":5,
+        "imeProizvoda":"Zenith Pilot Cronometro Black Steel/Leather",
+        "cene":
+        {
+            "popust":1,
+            "staraCena":6299,
+            "Cena":5399
+        },
+        "brand":{
+            "brandId":3,
+            "brandPic":"assets/Images/Logos/zenLogo.png",
+            "opisBrenda":"ZenithLogo"
+        },
+        "opis":"This automatic Men`s watch has 43 mm diameter stainless steel and a fixed bezel. Black dial. Rhodium-plated, faceted and coated with SuperLuminova SLN C1 hands and Arabic numerals in SuperLuminova SLN C1 index hour markers. The chronograph hold: central chronograph hand, 30-minute counter at 3 o’clock and small seconds at 9 o’clock. "
+    },
+    {
+        "id":11,
+        "isF":0,
+        "novProizvod":1,
+        "polKat":
+        {
+            "polId":3,
+            "pol":"u"
+        },
+        "slika":
+        {
+            "putanjaSlike":"assets/Images/ZenithCollection/zen2.jpg",
+            "opisSlike":"Zenith Elite Classic Black"
+        },
+        "ocena":4,
+        "imeProizvoda":"Zenith Elite Classic Black Smoked Dial Leather",
+        "cene":
+        {
+            "popust":0,
+            "staraCena":0,
+            "Cena":2409
+        },
+        "brand":{
+            "brandId":3,
+            "brandPic":"assets/Images/Logos/zenLogo.png",
+            "opisBrenda":"ZenithLogo"
+        },
+        "opis":"Stainless steel case with leather strap.Minute markers around the outer rim. Dial Type: Analog. Chronograph - two sub-dials displaying: 60 second and 30 minute. Zenith calibre El Primero 4069 automatic movement with a 50-hour power reserve. Scratch resistant sapphire crystal. Pull / push crown. "
+    },
+    {
+        "id":12,
+        "isF":1,
+        "novProizvod":0,
+        "polKat":
+        {
+            "polId":2,
+            "pol":"f"
+        },
+        "slika":
+        {
+            "putanjaSlike":"assets/Images/ZenithCollection/zen3.jpg",
+            "opisSlike":"Zenith Grande Chronomaster"
+        },
+        "ocena":5,
+        "imeProizvoda":"Zenith Grande Chronomaster Rose Gold",
+        "cene":
+        {
+            "popust":1,
+            "staraCena":12999,
+            "Cena":10999
+        },
+        "brand":{
+            "brandId":3,
+            "brandPic":"assets/Images/Logos/zenLogo.png",
+            "opisBrenda":"ZenithLogo"
+        },
+        "opis":"Owning a timepiece from one of the truly great producers is surely one of life’s special treats. Swiss manufacturer Zenith was founded in 1865 and has been crafting a wide range of intriguing, and oftentimes award-winning, timepieces ever since. "
+    },
+    {
+        "id":13,
+        "isF":1,
+        "novProizvod":1,
+        "polKat":
+        {
+            "polId":3,
+            "pol":"u"
+        },
+        "slika":
+        {
+            "putanjaSlike":"assets/Images/ZenithCollection/zen4.jpg",
+            "opisSlike":"Zenith Defy Classic Mens"
+        },
+        "ocena":5,
+        "imeProizvoda":"Zenith Defy Classic Mens Watch 41mm",
+        "cene":
+        {
+            "popust":1,
+            "staraCena":5399,
+            "Cena":4219
+        },
+        "brand":{
+            "brandId":3,
+            "brandPic":"assets/Images/Logos/zenLogo.png",
+            "opisBrenda":"ZenithLogo"
+        },
+        "opis":"Owning a timepiece from one of the truly great producers is surely one of life’s special treats. Swiss manufacturer Zenith was founded in 1865 and has been crafting a wide range of intriguing, and oftentimes award-winning, timepieces ever since. "
+    },
+    {
+        "id":14,
+        "isF":1,
+        "novProizvod":0,
+        "polKat":
+        {
+            "polId":2,
+            "pol":"f"
+        },
+        "slika":
+        {
+            "putanjaSlike":"assets/Images/OmegaCollection/omg1.jpg",
+            "opisSlike":"Omega De Ville Prestige Butterfly"
+        },
+        "ocena":5,
+        "imeProizvoda":"Omega De Ville Prestige Butterfly Silver Steel",
+        "cene":
+        {
+            "popust":1,
+            "staraCena":6209,
+            "Cena":4209
+        },
+        "brand":{
+            "brandId":4,
+            "brandPic":"assets/Images/Logos/omgLogo.png",
+            "opisBrenda":"OmegaLogo"
+        },
+        "opis":"The OMEGA De Ville Prestige “Butterfly” is a timepiece of true beauty that draws on the enchantment and aesthetics of nature. This model features a silvery diamond-set dial with a unique butterfly pattern achieved using a ramolayage, or pounced ornament, technique."
+    },
+    {
+        "id":15,
+        "isF":0,
+        "novProizvod":1,
+        "polKat":
+        {
+            "polId":1,
+            "pol":"m"
+        },
+        "slika":
+        {
+            "putanjaSlike":"assets/Images/OmegaCollection/omg2.png",
+            "opisSlike":"Omega Seamaster Planet"
+        },
+        "ocena":5,
+        "imeProizvoda":"Omega Seamaster Planet Ocean Chronograph",
+        "cene":
+        {
+            "popust":0,
+            "staraCena":0,
+            "Cena":3909
+        },
+        "brand":{
+            "brandId":4,
+            "brandPic":"assets/Images/Logos/omgLogo.png",
+            "opisBrenda":"OmegaLogo"
+        },
+        "opis":"Omega Seamaster Planet Ocean Chronograph self-winding automatic watch, features a 45.5mm stainless steel case surrounding a black dial on a black rubber strap with a stainless steel deployant buckle. Functions include hours, minutes, small-seconds, date, helium release valve and chronograph."
+    },
+    {
+        "id":16,
+        "isF":0,
+        "novProizvod":0,
+        "polKat":
+        {
+            "polId":2,
+            "pol":"f"
+        },
+        "slika":
+        {
+            "putanjaSlike":"assets/Images/OmegaCollection/omg3.png",
+            "opisSlike":"Omega Speedmaster "
+        },
+        "ocena":5,
+        "imeProizvoda":"Omega Speedmaster '57 Chronograph",
+        "cene":
+        {
+            "popust":0,
+            "staraCena":0,
+            "Cena":11909
+        },
+        "brand":{
+            "brandId":4,
+            "brandPic":"assets/Images/Logos/omgLogo.png",
+            "opisBrenda":"OmegaLogo"
+        },
+        "opis":"Omega Speedmaster '57 Chronograph self-winding automatic watch, features a 41.5mm 18k yellow gold case surrounding a silver dial on a brand new brown alligator strap with an 18k yellow gold deployant buckle. "
+    },
+    {
+        "id":17,
+        "isF":0,
+        "novProizvod":1,
+        "polKat":
+        {
+            "polId":3,
+            "pol":"u"
+        },
+        "slika":
+        {
+            "putanjaSlike":"assets/Images/OmegaCollection/omg4.png",
+            "opisSlike":"Omega Seamaster Railmaster "
+        },
+        "ocena":5,
+        "imeProizvoda":"Omega Seamaster Railmaster Stainless Steel ",
+        "cene":
+        {
+            "popust":0,
+            "staraCena":0,
+            "Cena":3909
+        },
+        "brand":{
+            "brandId":4,
+            "brandPic":"assets/Images/Logos/omgLogo.png",
+            "opisBrenda":"OmegaLogo"
+        },
+        "opis":"Omega Seamaster Railmaster (22012402006001) self-winding automatic watch, features a 40mm stainless steel case surrounding a grey dial on a brown leather NATO strap with a stainless steel tang buckle. Functions include hours, minutes and seconds. "
+    }
+
+]

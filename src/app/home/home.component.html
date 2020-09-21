@@ -1,0 +1,134 @@
+<!--ABOUT-->
+<div class="jumbotron">
+  <div class="container" id="aboutDrzac">
+    <div class="row">
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h1>
+          <i class="far fa-clock"></i>
+          Siam Watches
+          <i class="far fa-clock"></i>
+        </h1>
+        <p>Passing on ancestral skills in order to forge the future. Fulfilling the destiny of a Fine Watchmaking,consistently driven by daring, authenticity and passion since 1865.</p>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+<!--DEO IZNAD SE PONAVLJA U DALJIM STRANICAMA-->
+<div class="container-fluid">
+  <div class="row ab">
+    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 abText">
+      <h2>ABOUT</h2>
+      <p>
+        Our customers come to us because the watch they wear on their wrist matters to them – just as it matters to us. They tell us no one knows the market like we do and that they would never look anywhere else for the latest collections and the best service. Because of that, some of our customers have been with us for over 50 years – we like to think of them as ‘friends of the business’.
+        Although we can’t offer you a glass of champagne here on our website, we hope you feel especially welcome and enjoy browsing our collections.
+      </p>
+    </div>
+
+    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 abPic">
+      <img src="assets/Images/abs1.png" alt="Watch about background" title="Watch about background"/>
+    </div>
+  </div>
+
+</div>
+<!--/ABOUT-->
+
+<!--F products-->
+<div class="container-fluid" id="fGlavniDrzac">
+  <div class="row fDrzac">
+    <h2 id="fH2">&middot;FEATURED COLLECTION&middot;</h2>
+
+    <app-showwatches *ngFor="let watch of watchesF" [watchesAlias]="watch" class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 fArticles"></app-showwatches>
+  </div>
+</div>
+<!--/F products-->
+<!--Kolekicje-->
+<div class="container-fluid">
+  <div class="row mfCollection">
+    <div class="col-xl-6 col-lg-6 col-md-12 mfColl">
+      <div class="mfCollBckWh">
+        <h2>MEN`S WATCH</h2>
+        <p>
+          BRAND NEW STYLES
+        </p>
+        <p>Inspired by your needs</p>
+        <a [routerLink]="['/products']" [queryParams]="{genderId: 1}">VIEW ALL PRODUCTS</a>
+      </div>
+    </div>
+
+    <div class="col-xl-6 col-lg-6 col-md-12 mfColl">
+      <div class="mfCollBckWh">
+        <h2>WOMEN`S WATCH</h2>
+        <p>
+          THE NEW CLASSICS
+        </p>
+        <p>Inspired by you. Made to stand out.</p>
+        <a  [routerLink]="['/products']" [queryParams]="{genderId: 2}">VIEW ALL PRODUCTS</a>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<!--KRaj kolekcije-->
+
+<!--S products-->
+<div class="container-fluid" id="fGlavniDrzac">
+  <div class="row fDrzac">
+    <h2 id="fH2">&middot;ON SALE&middot;</h2>
+  </div>
+</div>
+<div class="container-fluid">
+  <owl-carousel-o [options]="salesOptions">
+    <ng-container *ngFor="let watch of wathcesS">
+      <ng-template carouselSlide [id]="watch.id">
+        <div class="fArticles">
+          <p id="akc" *ngIf="watch.cene.popust == 1">SALE</p>
+          <p id="nvn" *ngIf="watch.novProizvod == 1">NEW</p>
+          <span id="slikaProd">
+          <img src="{{watch.slika.putanjaSlike}}" alt="{{watch.slika.opisSlike}}" title="{{watch.slika.opisSlike}}"/>
+      </span>
+          <span id="stars">
+       <i class="fas fa-star" *ngFor="let item of createRange(watch.ocena)"></i>
+       <i class="far fa-star" *ngFor="let item of createRange(5- watch.ocena)"></i>
+     </span>
+          <p id="prodName">{{watch.imeProizvoda}}</p>
+          <span id="sNCenaBrand">
+        <span id="sNcena">
+          <p id="staraCena" *ngIf="watch.cene.popust == 1">{{watch.cene.staraCena}} $</p>
+          <p>{{watch.cene.Cena}} $</p>
+        </span>
+        <span id="brand">
+            <a [routerLink]="['/products']" [queryParams]="{brandId: watch.brand.brandId}"><img src="{{watch.brand.brandPic}}" alt="{{watch.brand.opisBrenda}}" title="{{watch.brand.opisBrenda}}"/></a>
+        </span>
+      </span>
+          <p class="text-secondary">{{watch.opis | shorten: 60}}</p>
+          <span id="order">
+          <a [routerLink]="['/product',watch.id]"><button><i class="fas fa-cart-plus"></i> ORDER NOW</button></a>
+      </span>
+
+        </div>
+      </ng-template>
+    </ng-container>
+  </owl-carousel-o>
+</div>
+<!--/S products-->
+
+<!--Brendovi-->
+<div class="container-fluid" id="brendovi">
+
+  <div class="row" *ngFor="let brand of brands">
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 abBrands" [ngClass]="{'order-1':brand.brandId%2 !=0} ">
+      <img src="{{brand.fullBrandPic}}" alt="{{brand.imeBrenda}}" title="{{brand.imeBrenda}}">
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 abBrands">
+      <h2>{{brand.imeBrenda}}</h2>
+      <p>{{brand.OpisDetaljniji}}</p>
+      <a [routerLink]="['/products']" [queryParams]="{brandId: brand.brandId}">EXPLORE THE COLLECTION</a>
+    </div>
+  </div>
+
+</div>
+<!--/Brendovi-->

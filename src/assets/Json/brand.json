@@ -1,0 +1,34 @@
+[
+    {
+        "brandId":1,
+        "imeBrenda":"ROLEX",
+        "OpisDetaljniji":" Wearing a Rolex watch enables entry into a world of unlimited possibilities.Rolex’s story began when founder Hans Wilsdorf created the first waterproof wristwatch – the Oyster – and developed into a range of timepieces that have become icons of watchmaking. Discover Rolex watches on the wrists of pioneers, artists, athletes and visionaries and journey to the very highest summits and the deepest part of the oceans.",
+        "fullBrandPic":"assets/Images/brandCollection/rlx.jpg",
+        "brandPic":"assets/Images/Logos/rlxLogo.png",
+        "opisBrenda":"RolexLogo"
+    },
+    {
+        "brandId":2,
+        "imeBrenda":"CARTIER",
+        "OpisDetaljniji":"King Edward VII of England used to refer to Cartier as ‘the jeweller of kings and the king of jewellers’. This reputation was such that at the coronation of King George V in June 1911, 19 of the tiaras worn at the ceremony were by Cartier. From Spain to England, Belgium to Russia, India to Siam, Kings and Queens around the world made Cartier their official supplier of royal jewellery.Socialites and movie stars followed suit and Merle Oberon, Elizabeth Taylor, Grace Kelly and Gloria Swanson were all great collectors of Cartier jewellery.",
+        "fullBrandPic":"assets/Images/brandCollection/crt.jpg",
+        "brandPic":"assets/Images/Logos/crtLogo.png",
+        "opisBrenda":"CartierLogo"
+    },
+    {
+        "brandId":3,
+        "imeBrenda":"ZENITH",
+        "OpisDetaljniji":" Feet on the ground and head in the stars. From the design to the finish of each piece, Zenith strives to set life in motion and push the boundaries of the impossible. Its mechanisms place the Swiss House at the forefront of the art of watchmaking. By bringing together all the watchmaking métiers under one roof, Georges Favre-Jacot revolutionized the watch manufacturing model for good.",
+        "fullBrandPic":"assets/Images/brandCollection/zen.jpg",
+        "brandPic":"assets/Images/Logos/zenLogo.png",
+        "opisBrenda":"ZenithLogo"
+    },
+    {
+        "brandId":4,
+        "imeBrenda":"OMEGA",
+        "OpisDetaljniji":"Great moments in time around the world and beyond. For more than 170 years, our timepieces have recorded the planet’s history. They have also served with distinction in space, in the oceans’ depths and on the wrists of world leaders, explorers and men and women who appreciate OMEGA’s blend of performance and design.OMEGA is one of the world’s most influential watch brands, with numerous precision records, inspired design and a commitment to innovation.",
+        "fullBrandPic":"assets/Images/brandCollection/omg.jpg",
+        "brandPic":"assets/Images/Logos/omgLogo.png",
+        "opisBrenda":"OmegaLogo"
+    }
+]

@@ -1,0 +1,29 @@
+#uniqProd
+{
+  height: 630px;
+}
+*{
+  color:white;
+}
+.required{
+  margin-top: 2px;
+  color:red;
+}
+.customValidation p
+{
+  color: red;
+  margin-bottom: 2px !important;
+}
+input.ng-invalid.ng-touched{
+  border:1px solid red;
+}
+.form-control
+{
+  color: black;
+}
+@media only screen and (max-width: 600px) {
+  #uniqProd
+  {
+    height: auto;
+  }
+}

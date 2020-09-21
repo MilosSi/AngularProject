@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="table-responsive-md " *ngIf="orders != null; else noOrders">
+    <table class="table">
+      <thead class="thead-dark">
+      <tr>
+        <th scope="col">Customer</th>
+        <th scope="col">Address</th>
+        <th scope="col">Price</th>
+        <th scope="col">Watch name</th>
+        <th scope="col">Brand</th>
+        <th scope="col">Picture</th>
+        <th scope="col">Action</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let order of orders; let i = index">
+          <td>{{order.imeKupca}}</td>
+          <td>{{order.addKupca}}</td>
+          <td>{{order.cena}}$</td>
+          <td>{{order.imeSata}}</td>
+          <td><img class="picOrder" src="{{order.slikaBrenda}}" alt="Brand logo" title="Brand logo"></td>
+          <td><img class="picOrder" src="{{order.slikaSata}}" alt="Watch photo" title="Watch photo"></td>
+          <td><button value="{{i}}" class="btn btn-danger" (click)="onDelete(i)">Delete</button> </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <ng-template #noOrders>
+    <div class="container text-center p-4">
+      <h1 style="color: #007bff">YOUR ORDER LIST IS EMPTY</h1>
+    </div>
+  </ng-template>
+</div>

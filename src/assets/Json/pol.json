@@ -1,0 +1,14 @@
+[
+    {
+        "polId":1,
+        "pol":"Male"
+    },
+    {
+        "polId":2,
+        "pol":"Female"
+    },
+    {
+        "polId":3,
+        "pol":"Unisex"
+    }
+]
